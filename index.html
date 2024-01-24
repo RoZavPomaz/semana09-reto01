@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reto01</title>
+</head>
+
+<body>
+    <h1>Ejercicios de Javascript</h1>
+    <main>
+        <div class="operaciones">
+            <h2>1. Positivo o Negativo:</h2>
+            <form action="">
+                <label>Ingresa Número:</label>
+                <input type="number" name="post" id="post">
+
+                <button type="button" onclick="positivonegativo()">Ver resultado.</button>
+
+
+                <label>Resultado:</label>
+                <input type="text" name="resultado1" id="resultado1" readonly="">
+            </form>
+        </div>
+        <div class="operaciones">
+            <h2>2. ¿Cual es mayor?:</h2>
+            <form action="">
+                <label>Ingresa el Número 1:</label>
+                <input type="number" name="number1" id="number1">
+
+                <label>Ingresa el Número 2:</label>
+                <input type="number" name="number2" id="number2">
+
+                <button type="button" onclick="mayormenor()">Ver resultado.</button>
+                <label>Resultado:</label>
+                <input type="text" name="resultado2" id="resultado2" readonly="">
+            </form>
+        </div>
+        <div class="operaciones">
+            <h2>3. ¿Es divisible entre 2?:</h2>
+            <form action="">
+                <label>Ingresa el Número:</label>
+                <input type="number" name="divisible" id="divisible">
+
+                <button type="button" onclick="divisible2()">Ver resultado.</button>
+                <label>Resultado:</label>
+                <input type="text" name="resultado3" id="resultado3" readonly="">
+            </form>
+        </div>
+        <div class="operaciones">
+            <h2>4. Factorial:</h2>
+            <form action="">
+                <label>Ingresa el Número:</label>
+                <input type="number" name="factorial" id="factorial">
+
+                <button type="button" onclick="factorial1()">Ver resultado.</button>
+                <label>Resultado:</label>
+                <input type="text" name="resultado4" id="resultado4" readonly="">
+            </form>
+        </div>
+        <div class="operaciones">
+            <h2>5. Iterar:</h2>
+            <form action="">
+                <label>Ingresa el Número:</label>
+                <input type="number" name="iterar" id="iterar">
+
+                <button type="button" onclick="iteracion1()">Ver resultado.</button>
+            </form>
+        </div>
+        <div class="operaciones">
+            <h2>6. Loteria:</h2>
+            <form action="">
+                <label>Ingresa un número entre 1 y 50:</label>
+                <input type="number" name="numero1" id="numero1">
+                <label>Ingresa otro número entre 1 y 50:</label>
+                <input type="number" name="numero2" id="numero2">
+                <button type="button" onclick="loteria()">Ver resultado.</button>
+
+
+            </form>
+        </div>
+        <div class="operaciones">
+            <h2>7. Iterar 2.0:</h2>
+            <form action="">
+                <label>Ingresa el Número:</label>
+                <input type="number" name="iterar2" id="iterar2">
+
+                <button type="button" onclick="iteracion2()">Ver resultado.</button>
+            </form>
+        </div>
+        <div class="operaciones">
+            <h2>8. Calificación:</h2>
+            <form action="">
+                <label>Ingresa tu calificación</label>
+                <input type="number" name="puntaje" id="puntaje">
+
+                <button type="button" onclick="puntuacion()">Ver resultado.</button>
+            </form>
+        </div>
+        <div class="operaciones">
+            <h2>9. Elige tu Topping:</h2>
+            <ul>
+                <li>Helado solo</li>
+                <li>Con topping de oreo</li>
+                <li>Con topping de kitkat</li>
+                <li>Con topping de brownie</li>
+            </ul>
+
+            <form action="">
+
+                <label>Elige tus opciones:</label>
+                <input type="text" name="heladooption" id="heladooption" placeholder="Solo, Oreo, Kitkat, Brownie">
+            </form>
+
+
+            <button type="button" onclick="helados()">Ver Precio.</button>
+
+        </div>
+        <div class="operaciones">
+            <h2>10. Calculadora de cursos:</h2>
+            <form id="formulario">
+                <label for="curso">Selecciona un curso:</label>
+                <input type="text" id="curso" placeholder="Course, Carrera, o Master" required>
+
+                <label for="beca">Selecciona una beca:</label>
+                <input type="text" id="beca" placeholder="Facebook, Google, o Jesua" required>
+
+                <button type="button" onclick="calcularPrecio()">Calcular Precio</button>
+            </form>
+        </div>
+        <div class="operaciones">
+            <h2>11. Calculadora de Costo de Viaje:</h2>
+
+            <form id="formulario">
+                <label for="tipoVehiculo">Tipo de Vehículo:</label>
+                <input type="text" id="tipoVehiculo" placeholder="Coche, Moto, Autobús" required>
+
+                <label for="kmsRecorridos">Kilómetros Recorridos:</label>
+                <input type="number" id="kmsRecorridos" placeholder="Ingrese la distancia en kilómetros" required>
+
+                <button type="button" onclick="calcularTotalAPagar()">Calcular Total a Pagar</button>
+            </form>
+        </div>
+
+
+    </main>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
